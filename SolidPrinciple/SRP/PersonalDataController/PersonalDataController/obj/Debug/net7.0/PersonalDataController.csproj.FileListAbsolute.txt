@@ -1,0 +1,15 @@
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/bin/Debug/net7.0/PersonalDataController
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/bin/Debug/net7.0/PersonalDataController.deps.json
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/bin/Debug/net7.0/PersonalDataController.runtimeconfig.json
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/bin/Debug/net7.0/PersonalDataController.dll
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/bin/Debug/net7.0/PersonalDataController.pdb
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.csproj.AssemblyReference.cache
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.AssemblyInfoInputs.cache
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.AssemblyInfo.cs
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.csproj.CoreCompileInputs.cache
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.dll
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/refint/PersonalDataController.dll
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.pdb
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/PersonalDataController.genruntimeconfig.cache
+/Users/naziazaman/Documents/C#_Projects/C#_Git/CSharp/SolidPrinciple/SRP/PersonalDataController/PersonalDataController/obj/Debug/net7.0/ref/PersonalDataController.dll

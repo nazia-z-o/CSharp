@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{ADBDFB59-B9ED-4CC7-85FA-ADE47C11C6F5}|Default">
+  <MonoDevelop.Ide.ItemProperties.PersonalDataController FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PersonalDataController/PersonalDataIOController.cs">
+    <Files>
+      <File FileName="PersonalDataController/Program.cs" Line="2" Column="36" />
+      <File FileName="PersonalDataController/Model/Person.cs" Line="17" Column="15" />
+      <File FileName="PersonalDataController/StandardMessege.cs" Line="12" Column="60" />
+      <File FileName="PersonalDataController/PersonalDataIOController.cs" Line="13" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PersonalDataController" expanded="True">
+            <Node name="PersonalDataController" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
