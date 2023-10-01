@@ -3,25 +3,22 @@ using PersonalDataController.Model;
 
 namespace PersonalDataController
 {
-	public static class PersonDataValidator
+	public class PersonDataValidator
 	{
-		static int IDCnt=0;
-		static List<Person> personlistwithId= new List<Person>();
+		static int personIdcnt= 0;
+		static List<Person> personList= new List<Person>();
 
-		public static bool setVAlidPerson(Person person)
+        public bool StorePersonData(Person person)
 		{
-			int _age = CalculateAge(person.dateofBirth);
-			person.SetAge(_age);
-			IDCnt++;
-			person.ID = IDCnt;
-			personlistwithId.Add(person);
+
+            personIdcnt++;
+			person.ID = personIdcnt;
+			personList.Add(person);
+
+			Console.WriteLine("Your personal data saved successfully. your id is :" + person.ID);
+
 			return true;
 		}
-		private static int CalculateAge(string DOB)
-		{
-			return 0;
-		}
-		
 	}
 }
 

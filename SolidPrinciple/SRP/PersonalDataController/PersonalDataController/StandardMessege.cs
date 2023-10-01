@@ -12,9 +12,13 @@ namespace PersonalDataController
 		{
 			Console.WriteLine(msg);
 			Console.WriteLine("Thank You!");
+		}
+		public static void closeMessege()
+		{
 			Console.WriteLine("Press enter to close...");
 			Console.ReadLine();
 		}
+
 	}
 }
 

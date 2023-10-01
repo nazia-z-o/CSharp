@@ -1,21 +1,25 @@
 ﻿<Properties StartupConfiguration="{ADBDFB59-B9ED-4CC7-85FA-ADE47C11C6F5}|Default">
-  <MonoDevelop.Ide.ItemProperties.PersonalDataController PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PersonalDataController/DataValidator/PersonDataValidator.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PersonalDataController/DataValidator/PhoneValidator.cs">
     <Files>
-      <File FileName="PersonalDataController/Program.cs" Line="2" Column="36" />
-      <File FileName="PersonalDataController/Model/Person.cs" Line="6" Column="28" />
-      <File FileName="PersonalDataController/StandardMessege.cs" Line="10" Column="3" />
-      <File FileName="PersonalDataController/PersonalDataIOController.cs" Line="50" Column="41" />
-      <File FileName="PersonalDataController/DOBVAlidator.cs" Line="5" Column="6" />
-      <File FileName="PersonalDataController/PhoneValidator.cs" Line="1" Column="1" />
-      <File FileName="PersonalDataController/EmailValidator.cs" Line="5" Column="6" />
-      <File FileName="PersonalDataController/DataValidator/PersonDataValidator.cs" Line="17" Column="33" />
+      <File FileName="PersonalDataController/StandardMessege.cs" />
+      <File FileName="PersonalDataController/PersonalDataIOController.cs" />
+      <File FileName="PersonalDataController/DataValidator/PersonDataValidator.cs" />
+      <File FileName="PersonalDataController/DataValidator/PhoneValidator.cs" Line="8" Column="19" />
+      <File FileName="PersonalDataController/Model/Person.cs" />
+      <File FileName="PersonalDataController/DataValidator/EmailValidator.cs" />
+      <File FileName="PersonalDataController/DataValidator/DOBVAlidator.cs" />
+      <File FileName="PersonalDataController/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PersonalDataController">
+          <Node name="PersonalDataController" expanded="True">
             <Node name="PersonalDataController">
+              <Node name="DataValidator" expanded="True">
+                <Node name="PhoneValidator.cs" selected="True" />
+              </Node>
               <Node name="Model" expanded="True" />
             </Node>
           </Node>
@@ -23,8 +27,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PersonalDataController PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

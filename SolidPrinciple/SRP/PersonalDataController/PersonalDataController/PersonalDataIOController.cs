@@ -5,14 +5,16 @@ namespace PersonalDataController
 {
 	public class PersonalDataIOController
 	{
-		Person person=new Person();
-        DOBVAlidator dOBVAlidator = new DOBVAlidator();
-        PhoneValidator phoneValidator = new PhoneValidator();
-        EmailValidator emailValidator = new EmailValidator();
+		
+        DOBVAlidator dOBVAlidator ;
+        PhoneValidator phoneValidator ;
+        EmailValidator emailValidator;
+        PersonDataValidator personDataValidator = new PersonDataValidator();
 
-		public bool IOController()
+        public bool IOController()
 		{
-			Console.WriteLine("Please Enter First Name: ");
+            Person person = new Person();
+            Console.WriteLine("Please Enter First Name: ");
 			string val = TakeInput();
 			if (String.IsNullOrEmpty(val))
 				return false;
@@ -33,36 +35,56 @@ namespace PersonalDataController
 
             Console.WriteLine("Please Enter DateOfBirth: ");
             val = TakeInput();
+           
             if (String.IsNullOrEmpty(val))
                 return false;
-            //check if DOB valid or not
-            //person.dob= val;
+            dOBVAlidator = new DOBVAlidator(val);
+            if (!dOBVAlidator.IsValidDOB())
+            {
+                Console.WriteLine("Your date is not valid");
+                return false;
+            }
+            person.dateofBirth= val;
+            person.setAge();
+
             Console.WriteLine("Please Enter Phone Number: ");
             val = TakeInput();
             if (String.IsNullOrEmpty(val))
                 return false;
             //check if phone number valid or not
-            //person.phone = val;
+            phoneValidator = new PhoneValidator(val);
+            if(!phoneValidator.IsValidPhone())
+            {
+                Console.WriteLine("Your phone number is not valid");
+                return false;
+            }
+            person.phone = val;
+
             Console.WriteLine("Please Enter email Address: ");
             val = TakeInput();
             if (String.IsNullOrEmpty(val))
                 return false;
-            //checkif Email valid or not
-            //person.email = val;
 
+            //checkif Email valid or not
+            emailValidator = new EmailValidator(val);
+            if(!emailValidator.IsValidEmail())
+            {
+                Console.WriteLine("Your email is not valid");
+                return false;
+            }
+            person.email = val;
+
+            personDataValidator.StorePersonData(person);
             return true;
 		}
-        public void ShowErrorMsg(string msg)
-        {
-            Console.WriteLine("Sorry Found Error in input. Please Enter" + msg);
-        }
+        
         private string TakeInput()
 		{
 			string input = Console.ReadLine();
 			int cnt = 3;
 			while( cnt>0 && String.IsNullOrEmpty(input))
 			{
-				ShowErrorMsg("Valid data");
+                Console.WriteLine("Sorry Found Error in input. Please Enter valid data");
                 input = Console.ReadLine();
 				cnt--;
             }
